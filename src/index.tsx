@@ -3,7 +3,7 @@ import * as style from './header.css';
 
 export default ()=>{
     return(
-        <h1 className={style.miguel}>
+        <h1 className={style.header}>
             Hola Miguel
         </h1>
     )

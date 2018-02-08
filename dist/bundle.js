@@ -1,4 +1,3 @@
-module.exports =
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -74,7 +73,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const React = __webpack_require__(1);
 const style = __webpack_require__(2);
 exports.default = () => {
-    return (React.createElement("h1", { className: style.miguel }, "Hola Miguel"));
+    return (React.createElement("h1", { className: style.header }, "Hola Miguel"));
 };
 
 
@@ -82,7 +81,7 @@ exports.default = () => {
 /* 1 */
 /***/ (function(module, exports) {
 
-module.exports = require("React");
+module.exports = React;
 
 /***/ }),
 /* 2 */
@@ -143,12 +142,11 @@ exports = module.exports = __webpack_require__(4)(false);
 
 
 // module
-exports.push([module.i, "._3fKiU9sDE2NIYhsFpSNFSn {\n    color: red;\n}\n\n@media only screen and (max-width: 1151px) and (min-width: 768px) {\n    ._3fKiU9sDE2NIYhsFpSNFSn {\n        color: blue;\n        font-family: Arial, Helvetica, sans-serif;\n    }\n}\n\n._3oGTyCJwg4G6K1oGQdF7iD {\n    color: aliceblue;\n} \n\nh1 {\n    font: bold;\n}", ""]);
+exports.push([module.i, "._3fKiU9sDE2NIYhsFpSNFSn {\n    color: red;\n}\n\n@media only screen and (max-width: 1151px) and (min-width: 768px) {\n    ._3fKiU9sDE2NIYhsFpSNFSn {\n        color: blue;\n        font-family: Arial, Helvetica, sans-serif;\n    }\n}", ""]);
 
 // exports
 exports.locals = {
-	"header": "_3fKiU9sDE2NIYhsFpSNFSn",
-	"miguel": "_3oGTyCJwg4G6K1oGQdF7iD"
+	"header": "_3fKiU9sDE2NIYhsFpSNFSn"
 };
 
 /***/ }),
