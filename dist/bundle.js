@@ -142,7 +142,7 @@ exports = module.exports = __webpack_require__(4)(false);
 
 
 // module
-exports.push([module.i, "._3fKiU9sDE2NIYhsFpSNFSn {\n    color: red;\n}\n\n@media only screen and (max-width: 1151px) and (min-width: 768px) {\n    ._3fKiU9sDE2NIYhsFpSNFSn {\n        color: blue;\n        font-family: Arial, Helvetica, sans-serif;\n    }\n}", ""]);
+exports.push([module.i, "._3fKiU9sDE2NIYhsFpSNFSn {\n    color: red;\n}\n\n@media only screen and (max-width: 1151px) and (min-width: 768px) {\n    ._3fKiU9sDE2NIYhsFpSNFSn {\n        color: blue;\n        font-family: Arial, Helvetica, sans-serif;\n        border: 1px solid rebeccapurple;\n    }\n}", ""]);
 
 // exports
 exports.locals = {
