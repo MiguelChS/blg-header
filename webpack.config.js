@@ -2,8 +2,7 @@ module.exports = {
     entry: "./src/index.tsx",
     output: {
         filename: "bundle.js",
-        path: __dirname + "/dist",
-        libraryTarget: 'commonjs2'
+        path: __dirname + "/dist"
     },
     // Enable sourcemaps for debugging webpack's output.
     devtool: "source-map",
@@ -45,7 +44,6 @@ module.exports = {
     //para excluir las depenciencia
     
     externals: {
-        "react": "React",
-        "react-dom": "ReactDOM"
+        "react": "React"
     },
 };
