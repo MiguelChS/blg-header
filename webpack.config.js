@@ -5,9 +5,7 @@ module.exports = {
     output: {
         filename: "index.js",
         path: __dirname + "/dist",
-        library: "index",
-        libraryTarget: 'umd',
-        umdNamedDefine: true
+        libraryTarget: 'commonjs'
     },
     // Enable sourcemaps for debugging webpack's output.
     devtool: "source-map",

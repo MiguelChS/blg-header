@@ -1,14 +1,4 @@
-(function webpackUniversalModuleDefinition(root, factory) {
-	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("react"));
-	else if(typeof define === 'function' && define.amd)
-		define("index", ["react"], factory);
-	else if(typeof exports === 'object')
-		exports["index"] = factory(require("react"));
-	else
-		root["index"] = factory(root["react"]);
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_1__) {
-return /******/ (function(modules) { // webpackBootstrap
+(function(e, a) { for(var i in a) e[i] = a[i]; }(exports, /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
 /******/
@@ -91,7 +81,7 @@ exports.default = () => {
 /* 1 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_1__;
+module.exports = require("react");
 
 /***/ }),
 /* 2 */
@@ -719,6 +709,5 @@ module.exports = function (css) {
 
 
 /***/ })
-/******/ ]);
-});
+/******/ ])));
 //# sourceMappingURL=index.js.map
