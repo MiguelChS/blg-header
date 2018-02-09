@@ -81,7 +81,7 @@ exports.default = () => {
 /* 1 */
 /***/ (function(module, exports) {
 
-module.exports = React;
+module.exports = react;
 
 /***/ }),
 /* 2 */

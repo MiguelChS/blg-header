@@ -44,6 +44,6 @@ module.exports = {
     //para excluir las depenciencia
     
     externals: {
-        "react": "React"
+        "react": "react"
     },
 };
