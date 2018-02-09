@@ -1,3 +1,5 @@
+const webpack = require('webpack');
+
 module.exports = {
     entry: "./src/index.tsx",
     output: {
@@ -44,6 +46,6 @@ module.exports = {
     //para excluir las depenciencia
     
     externals: {
-        "react": "react"
-    },
+        react: "react"
+    }
 };
