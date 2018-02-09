@@ -4,7 +4,10 @@ module.exports = {
     entry: "./src/index.tsx",
     output: {
         filename: "index.js",
-        path: __dirname + "/dist"
+        path: __dirname + "/dist",
+        library: "index",
+        libraryTarget: 'umd',
+        umdNamedDefine: true
     },
     // Enable sourcemaps for debugging webpack's output.
     devtool: "source-map",
