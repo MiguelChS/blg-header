@@ -3,8 +3,10 @@ import * as style from './header.css';
 
 export default ()=>{
     return(
-        <h1 className={style.header}>
-            Hola Miguel
-        </h1>
+        <nav className="navbar  navbar-default">
+            <div className = "">
+
+            </div>
+        </nav>
     )
 }
