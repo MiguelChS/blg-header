@@ -1,0 +1,17 @@
+.listMenu>li>a {
+    color: #444 !important;
+    font-weight: bold;
+    font-size: 11px;
+    padding: 20px 12px;
+    letter-spacing: 1px;
+}
+
+.listMenu>li>a:hover {
+    color: #da521e !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .listMenu>li>a {
+        padding: 10px 12px;
+    }
+}
