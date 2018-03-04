@@ -941,11 +941,7 @@ const index_css_1 = __webpack_require__(4);
 exports.Menu = () => {
     return (React.createElement("ul", { className: `${index_css_1.listMenu} nav navbar-nav text-uppercase pull-left` },
         React.createElement("li", null,
-            React.createElement("a", { href: "archive-cat.html" }, "Home")),
-        React.createElement("li", null,
-            React.createElement("a", { href: "about-me.html" }, "About me")),
-        React.createElement("li", null,
-            React.createElement("a", { href: "contact.html" }, "Contact"))));
+            React.createElement("a", { href: "/" }, "Home"))));
 };
 
 
