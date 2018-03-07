@@ -4,3 +4,4 @@ webpack.dev.js
 webpack.config.js
 tsconfig.json
 index.html
+.vscode
