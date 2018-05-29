@@ -45,6 +45,7 @@ module.exports = {
     //para excluir las depenciencia
     
     externals: {
-        react: "react"
+        react: "react",
+        "react-router-dom": "react-router-dom"
     }
 };
