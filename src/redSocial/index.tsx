@@ -1,10 +1,9 @@
 import * as React from 'react';
-import './index.css';
-import * as style from './index.css';
+import './index.scss';
 
 export const RedSocial = () => {
     return (
-        <ul className={`${style.readSocial} list-inline pull-right`}>
+        <ul className={`readSocial list-inline pull-right`}>
             <li><a href="#"><i className="fa fa-facebook"></i></a></li>
             <li><a href="#"><i className="fa fa-twitter"></i></a></li>
             <li><a href="#"><i className="fa fa-instagram"></i></a></li>

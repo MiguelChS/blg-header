@@ -1,8 +1,8 @@
 import * as React from 'react';
-import * as style from './header.css';
 import { RedSocial } from './redSocial';
 import { Menu } from './listMenu';
 import { ButtonMobile } from './menuMobile';
+import './header.scss';
 
 export interface IState {
     showMenu: boolean;
@@ -23,15 +23,15 @@ export class Header extends React.Component<MyProps, IState> {
 
     render() {
         return (
-            <nav className={`${style.header} navbar  navbar-default`}>
+            <nav className={`header navbar  navbar-default`}>
                 <div className="container">
-                    <div className={style.menucontent}>
+                    <div className="menucontent">
                         <div className="navbar-header">
                             <ButtonMobile
                                 toggleMenu={this.showMenuMobile}
                             />
                         </div>
-                        <div className={`${style.collapse} collapse navbar-collapse ${this.state.showMenu ? 'in' : ''}`}>
+                        <div className={`collapse navbar-collapse ${this.state.showMenu ? 'in' : ''}`}>
                             <RedSocial />
                             <Menu />
                         </div>

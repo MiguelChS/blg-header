@@ -1,5 +1,5 @@
-/// <reference types="react" />
 import * as React from 'react';
+import './header.scss';
 export interface IState {
     showMenu: boolean;
 }

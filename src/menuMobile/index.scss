@@ -1,0 +1,7 @@
+.menuMobile {
+    border-color: transparent !important;
+    &:active,
+    &:hover {
+        background-color: transparent !important;
+    }
+}

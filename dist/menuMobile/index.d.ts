@@ -1,5 +1,5 @@
 /// <reference types="react" />
-import './index.css';
+import './index.scss';
 export interface IProps {
     toggleMenu(): void;
 }
